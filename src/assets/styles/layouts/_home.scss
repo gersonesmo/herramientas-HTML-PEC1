@@ -10,6 +10,7 @@ body {
   display: block;
   margin-bottom: 20px;
   max-width: 300px;
+  width: 100%;
   height: auto;
 }
 
@@ -18,4 +19,24 @@ body {
   font-size: 36px;
   font-weight: 700;
   color: $uoc-corporate;
+}
+
+.heading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.section-title {
+  font-family: $font-family-serif;
+  color: $uoc-corporate;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.section-div {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
