@@ -21,6 +21,10 @@ body {
   color: $uoc-corporate;
 }
 
+.icons {
+  color: darken($red-color, 10%);
+}
+
 .heading-div {
   display: flex;
   justify-content: space-between;
@@ -39,4 +43,14 @@ body {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
+}
+
+li {
+  b {
+    color: $red-color;
+  }
+
+  i {
+    font-weight: 300;
+  }
 }
